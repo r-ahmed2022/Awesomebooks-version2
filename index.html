@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Awesome Books</title>
+    <link rel="stylesheet" href="css/index.css" />
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&family=Montserrat:wght@400;700&family=Lato:wght@400;700&family=Roboto:wght@400;700&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor"
+      crossorigin="anonymous"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+    <header class="siteheader">
+        <h1 class="logo">Awesome Books</h1>
+        <nav class="navbar">
+          <ul>
+            <li><a class="nav-link" href="#list-section">List</a></li>
+            <li><a class="nav-link" href="#add-book">Add Book</a></li>
+            <li><a class="nav-link" href="#contact">Contacts</a></li>
+          </ul>
+        </nav>
+        </header>
+              
+        <section class="list-section" id="list-section">
+          <div class="date">
+            <script>
+              document.write(new Date());
+            </script>
+          </div>
+      <h2>All awesome Books</h2>
+      <div class="list" id="list"></div>
+    </section>
+    <section  class="add-book" id="add-book">
+      <div id="form1" >
+        <h2>ADD NEW BOOKS</h2>
+        <input type="text" placeholder="Title" id="title" class="form-title" />
+        <input
+          type="text"
+          placeholder="Author"
+          id="author"
+          class="form-author"
+        />
+        <button class="btn my-3" id="addbook">Add Book</button>
+      </div>
+    </section>
+    <section class="contact" id="contact">
+        <h2>Contact information</h2>
+        <p>Do you have any question or you just want to say "Hello"? <br>You can reach out to us</p>
+        <ul>
+          <li>Our email mail@booklist.com</li>
+          <li>Our Phone Number 0043586548922</li>
+          <li>Our address StreetName 22, 84520 City, Country</li>
+        </ul>
+    </section>
+    <footer class="footer">
+        <h3>&copy;Copyright</h3>
+    </footer>
+</div>
+    <script src="js/index.js"></script>
+  </body>
+</html>
